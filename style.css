@@ -1,0 +1,44 @@
+<style>
+body{
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  font-size:80px;
+  text-align: center;
+  border-bottom: 3px solid gray;
+  margin:0;
+  padding: 10px;
+}
+ul {
+  font-size:20px;
+  border-right: 3px solid gray;
+  width: 100px;
+  margin: 0;
+  padding: 20px;
+  padding-right: 35px;
+}
+#grid {
+  display:grid;
+  grid-template-columns: 150px 1fr;
+}
+#grid ul{
+  padding-left: 30px;
+}
+#art {
+  padding-left: 40px;
+}
+@media(max-width:700px){
+  #grid{
+    display:block;
+  }
+ul{
+  border-right: none;
+}
+h1{
+  border-bottom: none;
+}
+}
+</style>
